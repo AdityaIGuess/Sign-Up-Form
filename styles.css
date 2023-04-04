@@ -70,6 +70,9 @@ body {
     background-color: white;
     padding: 1.2rem, 2vw, 3rem, 2vw;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+    margin-bottom: 200px;
+    padding-left: 50px;
+    padding-bottom: 10px;
 }
 
 form {
@@ -84,4 +87,59 @@ label {
     position: relative;
     width: 15rem;
     margin-bottom: 15px;
+    font-size: 0.8rem;
+    font-family: myFont;
 }
+
+.header {
+    margin-bottom: 40px;
+    font-family: myFont;
+    max-width: 700px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+.header2 {
+    margin-bottom: 50px;
+    font-family: myFont;
+    max-width: 700px;
+    margin-left: 50px;
+}
+
+p {
+    font-family: myFont;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button {
+    position: relative;
+    bottom: 150px;
+    margin-left: 50px;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: -1px;
+    padding: 0.8rem 1.3rem;
+    box-shadow:rgba(0, 0, 0, 0.123);
+    background-color: #00308F;
+    font-family: myFont;
+}
+
+.already {
+    position: relative;
+    bottom: 145px;
+    margin-left: 50px;
+}
+ em {
+    font-style: italic;
+ }
+
+ span {
+    color: green;
+ }
+
+ input:focus {
+    box-shadow: lightblue;
+ }
